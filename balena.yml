@@ -23,7 +23,7 @@ data:
     - TERRARIA_WORLD_NAME: "Hellworld"
     - TERRARIA_SEED:
     - TERRARIA_DIFFICULTY: 2
-  defaultDeviceType: raspberrypi3
+  defaultDeviceType: raspberrypi3-64
   supportedDeviceTypes:
     - raspberry-pi2
     - raspberrypi3
