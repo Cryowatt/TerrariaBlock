@@ -1,0 +1,7 @@
+{
+  "build-variables": {
+    "global": {
+      "TERRARIA_SERVER_VERSION": "1449"
+    }
+  }
+}

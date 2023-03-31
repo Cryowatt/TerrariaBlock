@@ -1,0 +1,31 @@
+name: Terraria
+type: sw.block
+description: >-
+  Terraria server instance.
+assets:
+  repository:
+    type: blob.asset
+    data:
+      url: 'https://github.com/cryowatt/terraria'
+  logo:
+    type: blob.asset
+    data:
+      url: >-
+        https://static.wikia.nocookie.net/terraria_gamepedia/images/a/a4/NewPromoLogo.png/revision/latest
+data:
+  applicationEnvironmentVariables:
+    - TERRARIA_PORT: 7777
+    - TERRARIA_MAX_PLAYERS: 4
+    - TERRARIA_PASSWORD:
+    - TERRARIA_MOTD: "Running on a $35 computer, in a closet, with the help of unicorns."
+    - TERRARIA_WORLD_PATH: /var/opt/terraria/world/world.wld
+    - TERRARIA_AUTOCREATE: 2
+    - TERRARIA_WORLD_NAME: "Hellworld"
+    - TERRARIA_SEED:
+  defaultDeviceType: raspberrypi3
+  supportedDeviceTypes:
+    - raspberry-pi2
+    - raspberrypi3
+    - raspberrypi3-64
+    - raspberrypi4-64
+version: 4.4.9
