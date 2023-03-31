@@ -6,7 +6,7 @@ assets:
   repository:
     type: blob.asset
     data:
-      url: 'https://github.com/cryowatt/terraria'
+      url: 'https://github.com/Cryowatt/TerrariaBlock'
   logo:
     type: blob.asset
     data:
