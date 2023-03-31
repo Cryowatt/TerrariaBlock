@@ -22,6 +22,7 @@ data:
     - TERRARIA_AUTOCREATE: 2
     - TERRARIA_WORLD_NAME: "Hellworld"
     - TERRARIA_SEED:
+    - TERRARIA_DIFFICULTY: 2
   defaultDeviceType: raspberrypi3
   supportedDeviceTypes:
     - raspberry-pi2
