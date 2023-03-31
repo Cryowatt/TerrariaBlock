@@ -11,4 +11,7 @@ RUN apt-get update && apt-get install -y libmono-cil-dev && apt-get clean && rm 
 WORKDIR /opt/terraria
 COPY --from=server-package /opt/terraria .
 ADD server.sh .
+ENV TERRARIA_PORT=7777
+ENV TERRARIA_AUTOCREATE=2
+ENV TERRARIA_WORLD_PATH=/var/opt/terraria/world/default.wld
 ENTRYPOINT [ "./server.sh" ]
